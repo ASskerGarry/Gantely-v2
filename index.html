@@ -4,28 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Best barbers and barbershop" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/classheader.css" />
     <title>Burbershop</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="./images/Logo_header.svg" alt="logo" />
-        <img src="./images/finger_header.svg" alt="finger" />
-        <ul>
+    <header class="header">
+      <nav class="header-navigation">
+        <img
+          src="./images/Logo_header.svg"
+          alt="logo"
+          class="header-navigation-img1"
+        />
+        <img
+          src="./images/finger_header.svg"
+          alt="finger"
+          class="header-navigation-img2"
+        />
+        <ul class="header-navigation-list">
           <li><a href="#about">About</a></li>
           <li><a href="#price">Services and prices</a></li>
           <li><a href="#barbers">Barbers</a></li>
           <li><a href="#contacts">Contacts</a></li>
         </ul>
+        <address class="header-navigation-address">
+          <a href="tel:+380441111111">+380441111111</a>
+        </address>
       </nav>
-      <p>+38 044 111 11 11</p>
       <img
+        class="header-img"
         src="./images/header_2.svg"
         alt="barbers"
         width="1070"
         height="680"
       />
-      <button>
+      <button class="header-btn-booking">
         <a href=""
           ><img
             src="./images/button_header.svg"
@@ -34,38 +51,47 @@
             height="36.11"
         /></a>
       </button>
-      <button type="button">Forward</button>
-      <button type="button">back</button>
-      <a href="">Instagram</a>
-      <a href="">Youtube</a>
-      <p>A hair salon for men in Kyiv</p>
-      <h1>BarberShop</h1>
-      <p>We are experts in trendy men’s haircuts.</p>
-      <p>We work quickly, carefully and with style.</p>
+      <button type="button" class="header-btn-forward">Forward</button>
+      <button type="button" class="header-btn-back">back</button>
+      <a href="" class="header-soc-inst">Instagram</a>
+      <a href="" class="header-soc-youtube">Youtube</a>
+      <p class="header-paragraph">A hair salon for men in Kyiv</p>
+      <h1 class="header-heading1">BarberShop</h1>
+      <p class="header-paragraph1">We are experts in trendy men’s haircuts.</p>
+      <p class="header-paragraph2">
+        We work quickly, carefully and with style.
+      </p>
     </header>
     <main>
-      <section>
+      <section class="section1">
         <img
           src="./images/main1_im1.svg"
           alt="shower"
           width="270"
           height="445"
+          class="section1-shower"
         />
-        <img src="./images/main1_im2.svg" alt="gel" width="270" height="445" />
-        <p id="about">About</p>
-        <h2>Best Barbershop in your city</h2>
-        <h3>
+        <img
+          src="./images/main1_im2.svg"
+          alt="gel"
+          width="270"
+          height="445"
+          class="section1-gel"
+        />
+        <p id="about" class="section1-about-title">About</p>
+        <h2 class="section1-heading2">Best Barbershop in your city</h2>
+        <h3 class="section1-heading3">
           If you want to add more confidence to your image, you should
           definitely visit us.
         </h3>
-        <p>
+        <p class="section1-paragraph">
           We are a team that never stops at what has been achieved and are
           thirsty for changes. And when you fall into the hands of our master,
           you will never be the same again. We are a team that is always "on the
           same wave" with clients. Therefore, we are always ready to improve
           everyone who comes to us!
         </p>
-        <button>
+        <button class="section1-btn">
           <a href=""
             ><img
               src="./images/button_header.svg"
@@ -76,15 +102,15 @@
         </button>
       </section>
       <section>
-        <p>Spend your time with the best masters</p>
-        <h2 id="price">Services and prices</h2>
-        <ul>
+        <p class="section2-paragraph">Spend your time with the best masters</p>
+        <h2 id="price" class="section2-heading2">Services and prices</h2>
+        <ul class="section2-price-list">
           <li>Men’s haircut ......................... from 300 uah.</li>
           <li>Beard trim ......................... from 300 uah.</li>
           <li>Mustache trim ......................... from 200 uah.</li>
           <li>Straight razor shave......................... from 200 uah.</li>
         </ul>
-        <ul>
+        <ul class="section2-price-list2">
           <li>Trainee’s haircut......................... from 50 uah.</li>
           <li>
             Haircut under the nozzle......................... from 200 uah.
@@ -97,7 +123,7 @@
             Camouflage of gray hair......................... from 200 uah.
           </li>
         </ul>
-        <button>
+        <button class="section2-btn">
           <a href=""
             ><img
               src="./images/button_header.svg"
@@ -107,28 +133,53 @@
           /></a>
         </button>
       </section>
-      <section>
-        <p>Old traditional school</p>
-        <h3>Why people come to us?</h3>
-        <p>
+      <section class="section3">
+        <p class="section3-paragraph">Old traditional school</p>
+        <h3 class="section3-heading3">Why people come to us?</h3>
+        <p class="section3-paragraph1">
           Only good things are said about us. But it's better to see and feel 1
           time than read 10 times.
         </p>
-        <img src="./images/main3_im1.svg" alt="60" width="130" height="93" />
-        <img src="./images/main3_im2.svg" alt="50" width="130" height="93" />
-        <img src="./images/main3_im3.svg" alt="20" width="130" height="93" />
-        <img src="./images/main3_im4.svg" alt="100" width="130" height="93" />
+        <img
+          src="./images/main3_im1.svg"
+          alt="60"
+          width="130"
+          height="93"
+          class="section3-img60"
+        />
+        <img
+          src="./images/main3_im2.svg"
+          alt="50"
+          width="130"
+          height="93"
+          class="section3-img50"
+        />
+        <img
+          src="./images/main3_im3.svg"
+          alt="20"
+          width="130"
+          height="93"
+          class="section3-img20"
+        />
+        <img
+          src="./images/main3_im4.svg"
+          alt="100"
+          width="130"
+          height="93"
+          class="section3-img100"
+        />
       </section>
-      <section>
-        <p>For true enjoyers of the atmosphere</p>
-        <h3 id="barbers">Our barbers</h3>
+      <section class="section4">
+        <p class="section4-paragraph">For true enjoyers of the atmosphere</p>
+        <h3 id="barbers" class="section4-heading3">Our barbers</h3>
         <img
           src="./images/main4_im1.svg"
           alt="barbers"
           width="370"
           height="346"
+          class="section4-teamcard1"
         />
-        <p>
+        <p class="section4-paragraph-teamcard1">
           John Smith <br />
           Extreme Barber
         </p>
@@ -137,8 +188,9 @@
           alt="barbers"
           width="370"
           height="346"
+          class="section4-teamcard2"
         />
-        <p>
+        <p class="section4-paragraph-teamcard2">
           Michele Doe <br />
           Extreme Barber
         </p>
@@ -147,12 +199,13 @@
           alt="barbers"
           width="370"
           height="346"
+          class="section4-teamcard3"
         />
-        <p>
+        <p class="section4-paragraph-teamcard3">
           Alan Black <br />
           Extreme Barber
         </p>
-        <ul>
+        <ul class="section4-soc-list">
           <li>
             <a href="" target="_blank" rel="noopener noreferrer"
               ><img
@@ -187,27 +240,31 @@
           </li>
         </ul>
       </section>
-      <section>
-        <p>In Latin, "barba" means "beard"</p>
+      <section class="section5">
+        <p class="section5-paragraph">In Latin, "barba" means "beard"</p>
         <img
+          class="section5-img-barba1"
           src="./images/main5_im1.svg"
           alt="barbers"
           width="270"
           height="360"
         />
         <img
+          class="section5-img-barba2"
           src="./images/main5_im2.svg"
           alt="barbers"
           width="270"
           height="360"
         />
         <img
+          class="section5-img-barba3"
           src="./images/main5_im3.svg"
           alt="barbers"
           width="270"
           height="360"
         />
         <img
+          class="section5-img-barba4"
           src="./images/main5_im4.svg"
           alt="barbers"
           width="270"
