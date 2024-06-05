@@ -1,15 +1,44 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  color: black;
+* {
+  box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.body-box {
+  width: 1600px;
+  height: 4918px;
+  background-color: #fff;
 }
 
-ul {
-  list-style-type: none;
+.header-box {
+  width: 1170px;
+  height: 680px;
+  flex-shrink: 0;
+  margin: 0px 215px 4238px 215px;
+}
+
+.header-slide {
+  width: 155px;
+  height: 680px;
+  flex-shrink: 0;
+  margin: 0px 1285px 4238px 160pxpx;
+}
+
+.section1-logo {
+  width: 68.93px;
+  height: 55.46px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 32px 1317px 4238px 215px;
+}
+
+.section1-rectange {
+  width: 1px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #303030;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 580px 1350px 4278px 249px;
 }
